@@ -101,6 +101,8 @@ There are multiple sets of Vagrantfiles available (see [`vagrantfiles/`](/vagran
 
 See [VM OS Selection doc page](docs/vm-os-selection.md).
 
+Example: `BOX_OS=ubuntu KUBERNETES_VERSION=1.21.7 make up -j 3`
+
 ## Usage
 
 Also see [Usage doc page](docs/usage.md).
